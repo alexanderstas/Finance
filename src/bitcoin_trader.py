@@ -83,7 +83,7 @@ if __name__ == '__main__':
             # (2)
             m_trend = get_trend_slope()
             if slope_becoming_larger() and slopes_negative_enough():
-
+                ...
 
         while invested:
             '''

@@ -1,0 +1,1 @@
+{"ARKG": 40, "ZOM": 500, "AAPL": 20, "OBSV": 35, "ARKF": 40, "NIO": 30, "NNDM": 30, "RIOT": 150, "PACE": 40, "PRNT": 40, "ACIC": 40}
