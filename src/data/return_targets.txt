@@ -1,1 +1,1 @@
-{"ARKG": 40, "ZOM": 400, "AAPL": 20, "OBSV": 35, "ARKF": 40, "NIO": 30, "NNDM": 30, "RIOT": 150, "PACE": 40, "PRNT": 40, "ACIC": 40, "SKLZ": 40}
+{"ARKG": 15.38, "ZOM": 220.76, "AAPL": 0.2, "OBSV": -1.71, "ARKF": 16.77, "NIO": 7.32, "NNDM": 1.53, "RIOT": 106.18, "PACE": -3.49, "PRNT": -2.25, "SKLZ": -3.17, "ACIC": 0.61}
