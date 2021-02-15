@@ -1,7 +1,6 @@
 from secrets import robin_password, robin_username
 import robin_stocks as rs
 import time
-from alert_sender import EmailSender
 
 
 class bcolors:

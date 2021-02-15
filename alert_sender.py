@@ -1,15 +1,15 @@
-from secrets import robin_password, robin_username
+from src.secrets.secrets import robin_password, robin_username
 import robin_stocks as rs
 import time
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from secrets import gmail_pass, gmail_user
+from src.secrets.secrets import gmail_pass, gmail_user
 import json
-import pprint
 
-PATH_TO_RETURN_TARGETS = '/Users/alexanderstas/Desktop/Finance/src/data/return_targets.txt'
-PATH_TO_HOLDINGS = '/Users/alexanderstas/Desktop/Finance/src/data/holdings.txt'
+
+PATH_TO_RETURN_TARGETS = 'src/data/return_targets.txt'
+PATH_TO_HOLDINGS = 'src/data/holdings.txt'
 
 
 class EmailSender:
@@ -81,7 +81,7 @@ if __name__ == '__main__':
     # Obtain current percentage_increase. Set next milestone to 5% higher.
     milestones = {}
     for key, value in return_percentages.items():
-        milestones[key] = return_percentages[key]
+        milestones[key] = return_percentages[key] + 5
 
     while True:
         portfolio = rs.build_holdings()

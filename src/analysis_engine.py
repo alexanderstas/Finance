@@ -5,8 +5,6 @@ import talib as ta
 from alert_sender import EmailSender
 import robin_stocks as rs
 from secrets import robin_password, robin_username
-import json
-import time
 
 
 class Engine(EmailSender):
