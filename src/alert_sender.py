@@ -81,7 +81,7 @@ if __name__ == '__main__':
     # Obtain current percentage_increase. Set next milestone to 5% higher.
     milestones = {}
     for key, value in return_percentages.items():
-        milestones[key] = return_percentages[key] + 5
+        milestones[key] = return_percentages[key]
 
     while True:
         portfolio = rs.build_holdings()
